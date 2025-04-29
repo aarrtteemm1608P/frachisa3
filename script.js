@@ -9,49 +9,55 @@ const appData = {
                 { name: "Valhalla DSP - Plugins Bundle", url: "https://flstudio12-20.com/valhalla-dsp-plugins-bundle-2024-03.html" },
                 { name: "SoundToys - The Ultimate", url: "https://flstudio12-20.com/soundtoys-vst-torrent-v5-0-1-10839.html" },
                 { name: "Dada Life- Bundle", url: "https://audiostorrent.com/dada-life-secret-sauce-bundle-free-download/" },
-                { name: "Arturia - V Collection X", url: "https://vk.com/doc668047561_685580825?hash=YLYAQv6v70dnkKGQDSvZ5ZsW9BH2xY3kzJi7gY3CPEs&dl=BPPeOl7qazRPUbPuT7bHsoXQgItND3E1jV7FTTUdOKT&api=1&no_preview=1" }
+                { name: "Arturia - V Collection X", url: "https://vk.com/doc668047561_685580825?hash=YLYAQv6v70dnkKGQDSvZ5ZsW9BH2xY3kzJi7gY3CPEs&dl=BPPeOl7qazRPUbPuT7bHsoXQgItND3E1jV7FTTUdOKT&api=1&no_preview=1" },
+                { name: "Solid State Logic - SSL Native Plugins", url: "https://vk.com/doc341261876_584408519?hash=xq268v4OQHVL0QnZ5Zh7pPrnnuzzxWKw3wSCdZmg2eL&dl=wrrvacbh1GYp9Qz2AktJalhAnayqctVj8AA3fqjXxO4&api=1&no_preview=1" },
+                { name: "uJAM - Finisher Bundle", url: "https://vk.com/s/v1/doc/REtEJ_XMu6tzcQ2f-hmWsWEqMBcwocl4Q5e9NqATomt4zrLeRwY" },
+                { name: "McDSP - Plugins Bundle", url: "https://vk.com/s/v1/doc/DXF6gehLzwv3tWdeD9w-bqFfS0wwP1DngFxEboewGH2YL-Eilz8" },
+                { name: "IK Multimedia T-RackS 6 MAX", url: "https://vk.com/s/v1/doc/-C9STG3AFhMnVQWjbx_6rEmPTQqXvSf8GrWdcuu683SxK63aX7o" },
+                { name: "D16 Group – Bundle", url: "https://vk.com/doc297599203_650696597?hash=zZUetQcz110KDXK3FlOIlTeS5ZpvuR9n8bfbfRlvzmD&dl=6Qg5zd0Jb1FNAHb6ThFCQ363QAZ1OkOl5vZ8xMWUxHs&api=1&no_preview=1" }
             ]
         },
         {
             id: 2,
             name: "ПЛАГИНЫ ДЛЯ СВИДЕНИЯ",
             buttons: [
-                { name: "Oeksound - Soothe2", url: "https://github.com" },
-                { name: "iZotope - RX 11", url: "https://stackoverflow.com" },
-                { name: "Maag EQ4", url: "https://techcrunch.com" },
-                { name: "Oeksound - Spiff", url: "https://wired.com" },
-                { name: "Voxengo MSED", url: "https://github.com" },
-                { name: "Antares - Auto-Tune Pro", url: "https://stackoverflow.com" },
-                { name: "Antares - Auto-Tune Pro X", url: "https://techcrunch.com" },
-                { name: "Antares - Auto-Tune EFX+", url: "https://wired.com" },
-                { name: "Antares - Auto-Tune Vocal-EQ", url: "https://github.com" },
-                { name: "Transient Shaper", url: "https://stackoverflow.com" },
-                { name: "UVI - Opal", url: "https://techcrunch.com" },
-                { name: "Pulsar Audio - 1178", url: "https://wired.com" },
-                { name: "Cytomic - The Glue", url: "https://github.com" },
-                { name: "Slate Digital - Fresh Air", url: "https://stackoverflow.com" },
-                { name: "Slate Digital - Virtual Mix Rack", url: "https://techcrunch.com" },
-                { name: "cramit", url: "https://wired.com" },
+                { name: "Oeksound - Soothe2", url: "https://vk.com/doc341261876_584405655?hash=z3rmnUbVLDkFP16sXap2MRZptAjfBhoTgLtyAtOR9Yo&dl=DlGzMzzA32HDuMZjM8IQsC9C3iRmssMWFpfceJjNxng&api=1&no_preview=1" },
+                { name: "iZotope - RX 11", url: "https://vk.com/doc668047561_684610357?hash=ztBcnxz6Wca0kuraLXEGsxoBkUKtDRNnEdtfzZZbJB8&dl=klpk0ZZYA6auE4ZLXZi1W45mk89IIB8gJcJoGs1SvXk&api=1&no_preview=1" },
+                { name: "Maag EQ4", url: "https://flstudio12-20.com/maag-eq4-skachat-torrent-v1-9.html" },
+                { name: "Oeksound - Spiff", url: "https://vk.com/doc341261876_584406185?hash=WC3xAurFfKuvPhZ4A3mC3QblIWek7GBOZ2tkYrKguV0&dl=8Xh1ezCikibgFCnzHNo3szg2xZIukMsBOYKbtA0kLlT&api=1&no_preview=1" },
+                { name: "Voxengo MSED", url: "https://guitarist1.ru/voxengo-msed-v3-0.html" },
+                { name: "Antares - Auto-Tune Pro", url: "https://vk.com/doc668047561_683321360?hash=Dce7FkYaH6BQ406QHYk7Kc1vV8OzT9bw6NMsbz5yQU8&dl=HxrpzXbN29fkZhYaB45orm6OAgOew5Ep97snje7uMqT&api=1&no_preview=1" },
+                { name: "Antares - Auto-Tune Pro X", url: "https://flstudio12-20.com/antares-auto-tune-pro-x-v10-1-0-rev2.html" },
+                { name: "Antares - Auto-Tune EFX+", url: "https://vk.com/s/v1/doc/qY3l_kD589f6zxyGqrRm3WtkwT4vCA9S_kBwzoKx6idMQpzo1Ko" },
+                { name: "Antares - Auto-Tune Vocal-EQ", url: "https://vk.com/s/v1/doc/T1n5WaBbuw6okOC7tX8gmsNn1TWmja16Uwvczw2e99VZcZfJRwg" },
+                { name: "Transient Shaper", url: "https://flstudio12-20.com/transient-shaper-v2-5-10.html" },
+                { name: "UVI - Opal", url: "https://vk.com/doc297599203_663768644?hash=9yojSbyI2o83Z1iHCW93It3AVZ19cnZS06lgayZXVZk&dl=9TXFUR22YgprZQOWVqksgPApzznigFztwZ2CfyZ1NXL&api=1&no_preview=1" },
+                { name: "Pulsar Audio - 1178", url: "https://vk.com/doc341261876_590287262?hash=RnHoWrldPRiXXMUfBQIpmuPKZp1yQc4P3Tmv3jRIYHo&dl=AxCF3aVL1OoD3Ulvg5HuU159uliOwYkwp9tD6M3quKc&api=1&no_preview=1" },
+                { name: "Cytomic - The Glue", url: "https://vk.com/doc297599203_654486509?hash=K4jnFsKAiUUOuaMDRFUp74r6nLVF8ZRz4WWT5wyxI0P&dl=fG0Q1OrjE9mIShaw6RiNaAvFqSxeHR58rDJC9EzxXzc&api=1&no_preview=1" },
+                { name: "Slate Digital - Fresh Air", url: "https://vk.com/doc289321871_643362431?hash=lBZeM3ZQDuruR04LoeIt8FZB7KPetkLvYKhJN1d4D68&dl=JwnVZKwZeMd75iTZDXZEFUyuqyDaGUiamV5aZ6GDh3w&api=1&no_preview=1" },
+                { name: "Slate Digital - Virtual Mix Rack", url: "https://vk.com/doc341261876_612784136?hash=12iN6Apywki9ZRX0N3gJEQhzfnMZaPmYqJfDsGh3IKw&dl=bKGZhg3Jwdw50gxtifvT5BLxwliX5dHzY3rG0QQXFc0&api=1&no_preview=1" },
+                { name: "cramit", url: "https://sixthsample.com/cramit/" },
             ]
         },
         {
             id: 3,
             name: "ПЛАГИНЫ ДЛЯ МАСТЕРИНГА",
             buttons: [
-                { name: "BBC", url: "https://bbc.com" },
-                { name: "CNN", url: "https://cnn.com" },
-                { name: "Reuters", url: "https://reuters.com" },
-                { name: "The Guardian", url: "https://theguardian.com" }
+                { name: "Shadow Hills Mastering Compressor", url: "https://flstudio12-20.com/shadow-hills-mastering-compressor-v1-5-1.html" },
+                { name: "iZotope - Ozone 11", url: "https://vk.com/doc668047561_670795961?hash=JzmFRiHMvn2pWhNqw2u9tThdS3iUVPzJ65iTzEZDd1g&dl=85oRfZPiJvSta0FfTRuq6nkN1jQaaZXCldzarHeKNbc&api=1&no_preview=1" },
+                { name: "iZotope - Tonal Balance Control 2", url: "https://vk.com/doc668047561_677386409?hash=uGtQlgP2h5PhzWYGJEXn2Tb7w8NYBi66xoLeNdrMfv4&dl=txxIbflpntvxz4rgDgz4oWJJQi0EAHV10DvNZdbou0D&api=1&no_preview=1" },
+                { name: "The Softube - Tube-Tech Equalizers Mk II", url: "https://vk.com/doc341261876_584992956?hash=E0P98Rt78mczSzZM24dic3P19oMriKvAhV0BOsylN9k&dl=qMN4KZJe5jHTtMvYyBzfHzaP3Bm7celZ1PHvWnfR5j4&api=1&no_preview=1" },
+                { name: "Sonnox Oxford Inflator", url: "https://guitarist1.ru/oxford-inflator-1-5-1.html" },
+                { name: "Newfangled Saturate", url: "https://guitarist1.ru/newfangled-saturate-vst-v1-10-0.html" }
             ]
         },
         {
             id: 4,
             name: "ПЛАГИНЫ АНАЛИЗАТОРЫ",
             buttons: [
-                { name: "YouTube", url: "https://youtube.com" },
-                { name: "Netflix", url: "https://netflix.com" },
-                { name: "Spotify", url: "https://spotify.com" },
-                { name: "Twitch", url: "https://twitch.tv" }
+                { name: "Voxengo - SPAN Plus", url: "https://vk.com/doc297599203_651926704?hash=BZFMjdh9AShFBJb2jwFNzk2aXAcPwslTHbmsoPz9L0o&dl=ZpJqkAmP5d8Aq8EsXBdv8R7jOlZsMUzdEk5EL4YITjs&api=1&no_preview=1" },
+                { name: "A.O.M. Factory - Invisible Limite", url: "https://vk.com/doc46605165_437356507?hash=zWMY6LprMNWETnwgqTtSr0HI1EVUPFWDkE943UTUpeD&dl=ZlswECM9jlOyOjSQQZQ7sVU5DY2JWhdWC2zQ4Vi810w&api=1&no_preview=1" },
+                { name: "PeakEater v0.5.1", url: "https://github.com/vvvar/PeakEater/releases/tag/v0.8.2" }
             ]
         },
         {
