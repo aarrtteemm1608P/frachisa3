@@ -47,7 +47,7 @@ const appData = {
                 { name: "iZotope - Ozone 11", url: "https://psv4.userapi.com/s/v1/d/GvZtc3bP3PEcIR1XKKX2dHs4OvSkgane-GkF-qReN7RB7GF4IERC4KB9C2bFTw44K98ATwERzLBmLBF1YYxfgSHe9xuHzbFRUfDrE3Qnag_BwFv-w0s7jw/iZotope_-_Ozone_11_Advanced_v11_0_0_VST3_AAX_x64_R2R__07_09_2023__rutracker-6405975_torrent.torrent" },
                 { name: "iZotope - Tonal Balance Control 2", url: "https://psv4.userapi.com/s/v1/d/sImqVgqdpI_erKyBzbUwThbO7lQKIfEqSqxYXuvMgqRrSiPQH4UKvszdoA2nVog4SZ1CUqI5LgSrAtTTbKHj33i83kJF9IGbPDcOKHoVYppAeZ2yWlkzZg/iZotope_-_Tonal_Balance_Control_2_v2_8_0_VST_VST3_AAX_x64_02_2024__R2R__rutracker-6488584_torrent.torrent" },
                 { name: "The Softube - Tube-Tech Equalizers Mk II", url: "https://psv4.userapi.com/s/v1/d/R5_OviDlPSD3eBYNJcZcCpO0d0po2JXscmfPGjMICbDNezi9AvSAVLC8s4yc-1kBpfOcUrGpe4tkEABRI84RPjSSeoZ0KFyDkN1E1NFVDamtzHCV4HDk9w/Skachat_torrent.torrent" },
-                { name: "Sonnox Oxford Inflator", url: "https://guitarist1.ru/wp-content/uploads/2024/12/sonnox-oxford-inflator-native-vst-v151-air.torrent" },
+                { name: "Sonnox Oxford - Inflator", url: "https://guitarist1.ru/wp-content/uploads/2024/12/sonnox-oxford-inflator-native-vst-v151-air.torrent" },
                 { name: "Newfangled Saturate", url: "https://www.mediafire.com/file/nusv8a50jc1g0np/Newfangled-Saturate-1.10.0.rar/file" }
             ]
         },
@@ -57,7 +57,7 @@ const appData = {
             buttons: [
                 { name: "Voxengo - SPAN Plus", url: "https://psv4.userapi.com/s/v1/d/57G4TJKgZyqFMlhjCS2NioxmsI2m17_KCQQLnXy_pH0hpr6Mhw_o06yXdfxCEkkLOkiLIFz_xDVcOs-klgUozxEF8BfQCMUCr8lOzVEO8OHa-_OkYipPeA/Voxengo_-_SPAN_Plus_1_21_VST_VST3_AAX_WIN_x86_x64_12_12_2022__rutracker-6295438_torrent.torrent" },
                 { name: "A.O.M. Factory - Invisible Limite", url: "https://psv4.userapi.com/s/v1/d/AJh_LcxsWl3GIS3dHErpc8EeLKcyBWw9W-mada50hLXO_vOMoZULIycqOsoL4I9wjwcqV8CJRWQ8_wE7DvwLoGnwfsmZvocObZcWn0bGLaXx4eBgLcSDng/rutracker_org_t4707509_torrent.torrent" },
-                { name: "PeakEater v0.5.1", url: "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Windows-x86_64.zip" }
+                { name: "PeakEater", url: "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Windows-x86_64.zip" }
             ]
         },
         {
