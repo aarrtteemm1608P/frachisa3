@@ -5,59 +5,59 @@ const appData = {
             id: 1,
             name: "ПЛАГИНЫ ПАЧКОЙ",
             buttons: [
-                { name: "FabFilter - Total Bundle", url: "https://vk.com/doc-84256981_684860959?hash=tcCUycOJAKuykjm86fpsmBXQVZxezYoxtXXxuTBlEpo&dl=ZTXGSzV9zXvh2B0Fgora5uMQ4xxAvsEkeD4vI2QWLEo&api=1&no_preview=1" },
-                { name: "Valhalla DSP - Plugins Bundle", url: "https://flstudio12-20.com/valhalla-dsp-plugins-bundle-2024-03.html" },
-                { name: "SoundToys - The Ultimate", url: "https://flstudio12-20.com/soundtoys-vst-torrent-v5-0-1-10839.html" },
-                { name: "Dada Life- Bundle", url: "https://audiostorrent.com/dada-life-secret-sauce-bundle-free-download/" },
-                { name: "Arturia - V Collection X", url: "https://vk.com/doc668047561_685580825?hash=YLYAQv6v70dnkKGQDSvZ5ZsW9BH2xY3kzJi7gY3CPEs&dl=BPPeOl7qazRPUbPuT7bHsoXQgItND3E1jV7FTTUdOKT&api=1&no_preview=1" },
-                { name: "Solid State Logic - SSL Native Plugins", url: "https://vk.com/doc341261876_584408519?hash=xq268v4OQHVL0QnZ5Zh7pPrnnuzzxWKw3wSCdZmg2eL&dl=wrrvacbh1GYp9Qz2AktJalhAnayqctVj8AA3fqjXxO4&api=1&no_preview=1" },
-                { name: "uJAM - Finisher Bundle", url: "https://vk.com/s/v1/doc/REtEJ_XMu6tzcQ2f-hmWsWEqMBcwocl4Q5e9NqATomt4zrLeRwY" },
-                { name: "McDSP - Plugins Bundle", url: "https://vk.com/s/v1/doc/DXF6gehLzwv3tWdeD9w-bqFfS0wwP1DngFxEboewGH2YL-Eilz8" },
-                { name: "IK Multimedia T-RackS 6 MAX", url: "https://vk.com/s/v1/doc/-C9STG3AFhMnVQWjbx_6rEmPTQqXvSf8GrWdcuu683SxK63aX7o" },
-                { name: "D16 Group – Bundle", url: "https://vk.com/doc297599203_650696597?hash=zZUetQcz110KDXK3FlOIlTeS5ZpvuR9n8bfbfRlvzmD&dl=6Qg5zd0Jb1FNAHb6ThFCQ363QAZ1OkOl5vZ8xMWUxHs&api=1&no_preview=1" }
+                { name: "FabFilter - Total Bundle", url: "https://psv4.userapi.com/s/v1/d/11hlXl8QXtk95HmDYo3XLOgVkzXq8rfn4HsurDYIKcvrjNO66lcCLjiMjddxZY6Pc3-IeOATnPAD0Zs5XfP6YWNvvUlY2m9jHKsyshrvy0PAJDt55vmNGA/FabFilter_-_Total_Bundle_v2024_12_11_R2R_VST_VST3_AAX_WIN__12_12_2024__rutracker-6612533_torrent.torrent" },
+                { name: "Valhalla DSP - Plugins Bundle", url: "https://flstudio12-20.com/wp-content/uploads/2024/04/valhalladsp-plugins-bundle-2024-03-x64.torrent" },
+                { name: "SoundToys - The Ultimate", url: "https://flstudio12-20.com/wp-content/uploads/2020/08/SoundToys-The-Ultimate-Effect-Solution-5-0-1-10839-VST.torrent" },
+                { name: "Dada Life- Bundle", url: "https://psv4.userapi.com/s/v1/d/MOVIAThfXj3qmmxaGhTVn0N2tt9Lc_rpbATSY8IOh0dYBVN3YIoYyZ_JwMlELslzpasrupWGrHGaOHcFRuuDXf7qSg7yrCZfeE071L8SeoNnys4a3X7bUQ/DADA_LIFE_Plugin_Bundle.torrent" },
+                { name: "Arturia - V Collection X", url: "https://psv4.userapi.com/s/v1/d/x7Ck2Xvmyeydton5HV002S2TKk1ucX2t0AlcKzNyDfEReWowqqd7vkpl--OYI-n935IX8nh3rkJeSkcgfN4mDYghgGiabthwv055Xg_EAkBzmWcd35EPig/Arturia_-_V_Collection_X_v10_2_2_STANDALONE_VSTi_VSTi3_AAX_x64__24_09_2024__R2R__rutracker-6586058_torrent.torrent" },
+                { name: "Solid State Logic - SSL Native Plugins", url: "https://psv4.userapi.com/s/v1/d/329OaV3hKk46-obhp3Tn5-Kk0tbswStQIHFgu_z_128xKYWamZ09hSOaGpwP9qoSSYBeczFQT_7xqzVfhgp9RjhrlZ0Rg9g1AvhMqtn1yADD7aD2TjKhwg/Skachat_torrent.torrent" },
+                { name: "uJAM - Finisher Bundle", url: "https://psv4.userapi.com/s/v1/d/xpNfYwMp1UI9zEST0pXnLdSHhfTqAG5R7La86f4r-gSE4nYJDK2FeywE2xfA5gN2w17-W6uyD9rsThEV3P8JB0ioyOEbfRq04sw8q5RbcMzrWubgoBnOlQ/uJAM_Finisher_Bundle_v1_2_0_VST.torrent" },
+                { name: "McDSP - Plugins Bundle", url: "https://psv4.userapi.com/s/v1/d/n3KDwHzh2gIPnzGfBWibioG7ItuZiTtBuOWKJIQW3-6EwYXBv4ELhshLSrqDoiI3btyXY3STxibVVZZDF5kyG31Ibrca702eINUVJzGJ3P5Ph8MTYkvL_w/McDSP_Plugins_Bundle.torrent" },
+                { name: "IK Multimedia T-RackS 6 MAX", url: "https://psv4.userapi.com/s/v1/d/wT6SG2KvVAWCytZdTEU4AcKpKEDOcyg0EFg-4v4DaY12Z8hqS2iLgEZ3Dc7f5KNJZCF5smN8lQAdbyVX3Cz3afn9zn7B5dCRru9sjx19oN5Csg2s0p973w/IK_Multimedia_T_RackS_6_MAX_6_0_2.torrent" },
+                { name: "D16 Group – Bundle", url: "https://psv4.userapi.com/s/v1/d/IWETdEIBD1Ze851XfBBpQRZt6yIvFhrlwcKsp5lRW3cNOPHsxl6oPK6YUUWFCO8nj-73zww_I6sooIeBbdwv3IYgfs7KWe_UVSCpLt2OOfSPcOVTl5XLpw/D16_Group__Bundle_VST_VST3_AAX_x64_WIN__R2R__NO_INSTALL_SymLink_Installer__2022_11_15__rutracker-6284323_torrent.torrent" }
             ]
         },
         {
             id: 2,
-            name: "ПЛАГИНЫ ДЛЯ СВИДЕНИЯ",
+            name: "ПЛАГИНЫ ДЛЯ СВЕДЕНИЯ",
             buttons: [
-                { name: "Oeksound - Soothe2", url: "https://vk.com/doc341261876_584405655?hash=z3rmnUbVLDkFP16sXap2MRZptAjfBhoTgLtyAtOR9Yo&dl=DlGzMzzA32HDuMZjM8IQsC9C3iRmssMWFpfceJjNxng&api=1&no_preview=1" },
-                { name: "iZotope - RX 11", url: "https://vk.com/doc668047561_684610357?hash=ztBcnxz6Wca0kuraLXEGsxoBkUKtDRNnEdtfzZZbJB8&dl=klpk0ZZYA6auE4ZLXZi1W45mk89IIB8gJcJoGs1SvXk&api=1&no_preview=1" },
-                { name: "Maag EQ4", url: "https://flstudio12-20.com/maag-eq4-skachat-torrent-v1-9.html" },
-                { name: "Oeksound - Spiff", url: "https://vk.com/doc341261876_584406185?hash=WC3xAurFfKuvPhZ4A3mC3QblIWek7GBOZ2tkYrKguV0&dl=8Xh1ezCikibgFCnzHNo3szg2xZIukMsBOYKbtA0kLlT&api=1&no_preview=1" },
-                { name: "Voxengo MSED", url: "https://guitarist1.ru/voxengo-msed-v3-0.html" },
-                { name: "Antares - Auto-Tune Pro", url: "https://vk.com/doc668047561_683321360?hash=Dce7FkYaH6BQ406QHYk7Kc1vV8OzT9bw6NMsbz5yQU8&dl=HxrpzXbN29fkZhYaB45orm6OAgOew5Ep97snje7uMqT&api=1&no_preview=1" },
-                { name: "Antares - Auto-Tune Pro X", url: "https://flstudio12-20.com/antares-auto-tune-pro-x-v10-1-0-rev2.html" },
-                { name: "Antares - Auto-Tune EFX+", url: "https://vk.com/s/v1/doc/qY3l_kD589f6zxyGqrRm3WtkwT4vCA9S_kBwzoKx6idMQpzo1Ko" },
-                { name: "Antares - Auto-Tune Vocal-EQ", url: "https://vk.com/s/v1/doc/T1n5WaBbuw6okOC7tX8gmsNn1TWmja16Uwvczw2e99VZcZfJRwg" },
-                { name: "Transient Shaper", url: "https://flstudio12-20.com/transient-shaper-v2-5-10.html" },
-                { name: "UVI - Opal", url: "https://vk.com/doc297599203_663768644?hash=9yojSbyI2o83Z1iHCW93It3AVZ19cnZS06lgayZXVZk&dl=9TXFUR22YgprZQOWVqksgPApzznigFztwZ2CfyZ1NXL&api=1&no_preview=1" },
-                { name: "Pulsar Audio - 1178", url: "https://vk.com/doc341261876_590287262?hash=RnHoWrldPRiXXMUfBQIpmuPKZp1yQc4P3Tmv3jRIYHo&dl=AxCF3aVL1OoD3Ulvg5HuU159uliOwYkwp9tD6M3quKc&api=1&no_preview=1" },
-                { name: "Cytomic - The Glue", url: "https://vk.com/doc297599203_654486509?hash=K4jnFsKAiUUOuaMDRFUp74r6nLVF8ZRz4WWT5wyxI0P&dl=fG0Q1OrjE9mIShaw6RiNaAvFqSxeHR58rDJC9EzxXzc&api=1&no_preview=1" },
-                { name: "Slate Digital - Fresh Air", url: "https://vk.com/doc289321871_643362431?hash=lBZeM3ZQDuruR04LoeIt8FZB7KPetkLvYKhJN1d4D68&dl=JwnVZKwZeMd75iTZDXZEFUyuqyDaGUiamV5aZ6GDh3w&api=1&no_preview=1" },
-                { name: "Slate Digital - Virtual Mix Rack", url: "https://vk.com/doc341261876_612784136?hash=12iN6Apywki9ZRX0N3gJEQhzfnMZaPmYqJfDsGh3IKw&dl=bKGZhg3Jwdw50gxtifvT5BLxwliX5dHzY3rG0QQXFc0&api=1&no_preview=1" },
-                { name: "cramit", url: "https://sixthsample.com/cramit/" },
+                { name: "Oeksound - Soothe2", url: "https://psv4.userapi.com/s/v1/d/jnxJJcLYooirK86Y6sPeMV-EVhxyCgYBFfDKV5FhWu7gRklCMsKqhxVfXsunP1C1NJJp-btvNK4lF22KJMkfMPzYmNaA-ZzRjYUPyj5VcvV-Vhztl_rK7w/Skachat_torrent.torrent" },
+                { name: "iZotope - RX 11", url: "https://psv4.userapi.com/s/v1/d/nXzOLcwmqzDtMj1t2e66ENdCaptfKdLwj3YRGdgqXqgAOPUnc67ZbVe5rgV9vIKrp6DvIQfu3HehGM3eNLK6mMiPdgKAG0_NIcezciiQfHtX9JSjXSb-ug/iZotope_-_RX_11_Audio_Editor_Advanced_v11_2_0_STANDALONE_VST3_AAX_x64_R2R__20_09_2024__rutracker-6575804_torrent.torrent" },
+                { name: "Maag EQ4", url: "https://flstudio12-20.com/wp-content/uploads/2020/09/Plugin-Alliance-Maag-Audio-EQ4-1.9-VST.torrent" },
+                { name: "Oeksound - Spiff", url: "https://psv4.userapi.com/s/v1/d/V6A40xWHeZuhZ5z9uVfWdQ_Pn3phVSzHLeToK6v-5oHqNGviOxmvs3dy5y6tYO449WnQAvjubuZeP8oeai-UG3SSPR7k2mYmplAlhqFF1393-7UAmoUs9Q/Skachat_torrent.torrent" },
+                { name: "Voxengo MSED", url: "https://www.mediafire.com/file/tamco8yc28jr100/voxengomsed_30.rar/file" },
+                { name: "Antares - Auto-Tune Pro", url: "https://psv4.userapi.com/s/v1/d/y7os1buYdwf7lA0lUWUhoywM0nbvsYDu6hMDKSOll3HqaA8AulgOhg6OKxqd3rkKhB1zgIudvbWQa6RGVzV-w9v7P7GmXBn1FMlajsoHYzmHT4lAAj1JZw/Antares_-_Auto-Tune_Pro_v11_0_0_V_R_VST3_AAX_x64_WIN__12_08_2024__rutracker-6561657_torrent.torrent" },
+                { name: "Antares - Auto-Tune Pro X", url: "https://flstudio12-20.com/wp-content/uploads/2024/03/Antares_-_Auto-Tune_Pro_X_v10_1_0.torrent" },
+                { name: "Antares - Auto-Tune EFX+", url: "https://psv4.userapi.com/s/v1/d/zYgYdnFCnTTxt8-miKiT5AfYqVNxa57Nv804rQNqJ6fMgEIIXte9gAfjkT98jXuSqog3KqHXcbDCg7vZE5kVrQrQdIvTi75SjkxGC6fZEuUL5EYGCOPF2A/Antares_Auto_Tune_EFX_v10_0_1.torrent" },
+                { name: "Antares - Auto-Tune Vocal-EQ", url: "https://psv4.userapi.com/s/v1/d/3I4nkqJIAQbg0TkNZltKrhb001cCadn5grKiLDrG0n5BzeLgowYWvHwb3w8TS0530TMdwa_xb-MEsbq3RewF2SZbE-X_6R4cWCFIIEIwGgJEitJ9QXAf-Q/Antares_Auto_Tune_Vocal_EQ_v1_0_0.torrent" },
+                { name: "Transient Shaper", url: "https://flstudio12-20.com/wp-content/uploads/2024/05/softube-transient-shaper-v2-5-10.torrent" },
+                { name: "UVI - Opal", url: "https://psv4.userapi.com/s/v1/d/agABNCJ54ihWr8ou74DQ_kjIScubtVa2X2lMXXx8DuIc3fitLzA-Ia2mgB4rgoxymqG_r-0JlBAsiIpjl1IXb_3W2puabl2sS9H7So9Hbzj9dJ8T5MDhIA/UVI_-_Opal_v1_0_0_VST_VST3_AAX_MOD_x64_6_7_2023_-R2R_rutracker-6383028_torrent.torrent" },
+                { name: "Pulsar Audio - 1178", url: "https://psv4.userapi.com/s/v1/d/sXPWWm6ozSYfcITYQsnBt7j_ZMqCqXtUmfhL3OlfJZekZtTKOg4aaFH5_bA2sNj0JbbOesmeS9CSvDNP_53zfuiaQlj9itBoxvXhzs9Q4SIxHN_XgG_I2g/Skachat_torrent.torrent" },
+                { name: "Cytomic - The Glue", url: "https://psv4.userapi.com/s/v1/d/J4wmo-kMqZoODttQApTqtQMQ4gXkQHTApw5LBl0rtXIF5-ux-cp9kxIH63WN75mzlrZ3nsKMEyQmTk3Y0GauJxFZYZv9pjtXSyNlDuy8BihQjkT13O11HA/Cytomic_-_The_Glue_v1_5_11_VST_AAX_x64_21_1_2023_-R2R_rutracker-6312389_torrent.torrent" },
+                { name: "Slate Digital - Fresh Air", url: "https://psv4.userapi.com/s/v1/d/e8YbBh6lvuiT6fQPaf6x1s0__YCxRt3_qAKtTDMev2JENOJuLudVgJ1KI_UBR45j1OsSjHZn0ire7tPjJzPWAm3iefPzI0do_dIOInXfAiAQ7svTVM75uA/Skachat_torrent_fayl_luchshie_VST-plaginy.torrent" },
+                { name: "Slate Digital - Virtual Mix Rack", url: "https://psv4.userapi.com/s/v1/d/p5rcZggOx08Et8pz_QrmN-QzItVIVEPBTRC3FLs29Wm7rP_PQiBJvw6CZ-1qIuJHekovgDK-6z3xdx1SEmCsfTQipJfR8Rb-XGNh50nSc_nRWfv6T9DC9w/Skachat_torrent.torrent" },
+                { name: "cramit", url: "https://sixthsample.com/wp-content/uploads/2025/01/Cramit-1.3.1.zip" },
             ]
         },
         {
             id: 3,
             name: "ПЛАГИНЫ ДЛЯ МАСТЕРИНГА",
             buttons: [
-                { name: "Shadow Hills Mastering Compressor", url: "https://flstudio12-20.com/shadow-hills-mastering-compressor-v1-5-1.html" },
-                { name: "iZotope - Ozone 11", url: "https://vk.com/doc668047561_670795961?hash=JzmFRiHMvn2pWhNqw2u9tThdS3iUVPzJ65iTzEZDd1g&dl=85oRfZPiJvSta0FfTRuq6nkN1jQaaZXCldzarHeKNbc&api=1&no_preview=1" },
-                { name: "iZotope - Tonal Balance Control 2", url: "https://vk.com/doc668047561_677386409?hash=uGtQlgP2h5PhzWYGJEXn2Tb7w8NYBi66xoLeNdrMfv4&dl=txxIbflpntvxz4rgDgz4oWJJQi0EAHV10DvNZdbou0D&api=1&no_preview=1" },
-                { name: "The Softube - Tube-Tech Equalizers Mk II", url: "https://vk.com/doc341261876_584992956?hash=E0P98Rt78mczSzZM24dic3P19oMriKvAhV0BOsylN9k&dl=qMN4KZJe5jHTtMvYyBzfHzaP3Bm7celZ1PHvWnfR5j4&api=1&no_preview=1" },
-                { name: "Sonnox Oxford Inflator", url: "https://guitarist1.ru/oxford-inflator-1-5-1.html" },
-                { name: "Newfangled Saturate", url: "https://guitarist1.ru/newfangled-saturate-vst-v1-10-0.html" }
+                { name: "Shadow Hills Mastering Compressor", url: "https://flstudio12-20.com/wp-content/uploads/2024/05/shadow-hills-mastering-compressor-v1-5-1.torrent" },
+                { name: "iZotope - Ozone 11", url: "https://psv4.userapi.com/s/v1/d/GvZtc3bP3PEcIR1XKKX2dHs4OvSkgane-GkF-qReN7RB7GF4IERC4KB9C2bFTw44K98ATwERzLBmLBF1YYxfgSHe9xuHzbFRUfDrE3Qnag_BwFv-w0s7jw/iZotope_-_Ozone_11_Advanced_v11_0_0_VST3_AAX_x64_R2R__07_09_2023__rutracker-6405975_torrent.torrent" },
+                { name: "iZotope - Tonal Balance Control 2", url: "https://psv4.userapi.com/s/v1/d/sImqVgqdpI_erKyBzbUwThbO7lQKIfEqSqxYXuvMgqRrSiPQH4UKvszdoA2nVog4SZ1CUqI5LgSrAtTTbKHj33i83kJF9IGbPDcOKHoVYppAeZ2yWlkzZg/iZotope_-_Tonal_Balance_Control_2_v2_8_0_VST_VST3_AAX_x64_02_2024__R2R__rutracker-6488584_torrent.torrent" },
+                { name: "The Softube - Tube-Tech Equalizers Mk II", url: "https://psv4.userapi.com/s/v1/d/R5_OviDlPSD3eBYNJcZcCpO0d0po2JXscmfPGjMICbDNezi9AvSAVLC8s4yc-1kBpfOcUrGpe4tkEABRI84RPjSSeoZ0KFyDkN1E1NFVDamtzHCV4HDk9w/Skachat_torrent.torrent" },
+                { name: "Sonnox Oxford Inflator", url: "https://guitarist1.ru/wp-content/uploads/2024/12/sonnox-oxford-inflator-native-vst-v151-air.torrent" },
+                { name: "Newfangled Saturate", url: "https://www.mediafire.com/file/nusv8a50jc1g0np/Newfangled-Saturate-1.10.0.rar/file" }
             ]
         },
         {
             id: 4,
             name: "ПЛАГИНЫ АНАЛИЗАТОРЫ",
             buttons: [
-                { name: "Voxengo - SPAN Plus", url: "https://vk.com/doc297599203_651926704?hash=BZFMjdh9AShFBJb2jwFNzk2aXAcPwslTHbmsoPz9L0o&dl=ZpJqkAmP5d8Aq8EsXBdv8R7jOlZsMUzdEk5EL4YITjs&api=1&no_preview=1" },
-                { name: "A.O.M. Factory - Invisible Limite", url: "https://vk.com/doc46605165_437356507?hash=zWMY6LprMNWETnwgqTtSr0HI1EVUPFWDkE943UTUpeD&dl=ZlswECM9jlOyOjSQQZQ7sVU5DY2JWhdWC2zQ4Vi810w&api=1&no_preview=1" },
-                { name: "PeakEater v0.5.1", url: "https://github.com/vvvar/PeakEater/releases/tag/v0.8.2" }
+                { name: "Voxengo - SPAN Plus", url: "https://psv4.userapi.com/s/v1/d/57G4TJKgZyqFMlhjCS2NioxmsI2m17_KCQQLnXy_pH0hpr6Mhw_o06yXdfxCEkkLOkiLIFz_xDVcOs-klgUozxEF8BfQCMUCr8lOzVEO8OHa-_OkYipPeA/Voxengo_-_SPAN_Plus_1_21_VST_VST3_AAX_WIN_x86_x64_12_12_2022__rutracker-6295438_torrent.torrent" },
+                { name: "A.O.M. Factory - Invisible Limite", url: "https://psv4.userapi.com/s/v1/d/AJh_LcxsWl3GIS3dHErpc8EeLKcyBWw9W-mada50hLXO_vOMoZULIycqOsoL4I9wjwcqV8CJRWQ8_wE7DvwLoGnwfsmZvocObZcWn0bGLaXx4eBgLcSDng/rutracker_org_t4707509_torrent.torrent" },
+                { name: "PeakEater v0.5.1", url: "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Windows-x86_64.zip" }
             ]
         },
         {
@@ -65,7 +65,7 @@ const appData = {
             name: "ПЛАГИНЫ ЭФФЕКТЫ",
             buttons: [
                 { name: "YouTube", url: "https://youtube.com" },
-                { name: "Netflix", url: "https://netflix.com" },
+                { name: "Netflix", url: "https://netflix.com"},
                 { name: "Spotify", url: "https://spotify.com" },
                 { name: "Twitch", url: "https://twitch.tv" }
             ]
