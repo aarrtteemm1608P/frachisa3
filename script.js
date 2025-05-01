@@ -134,9 +134,7 @@ function renderCategories(filterText = '') {
     const normalizedFilter = normalizeSearchQuery(filterText);
     
     appData.categories.forEach(category => {
-        // Фильтрация кнопок по тексту поиска
         const filteredButtons = category.buttons.filter(button => {
-            // Проверяем все возможные варианты названия
             const nameEn = normalizeSearchQuery(button.name);
             const nameRu = button.nameRu ? normalizeSearchQuery(button.nameRu) : '';
             const translitNameRu = button.nameRu ? transliterate(button.nameRu) : '';
@@ -146,19 +144,34 @@ function renderCategories(filterText = '') {
                    translitNameRu.includes(normalizedFilter);
         });
 
-        // Показываем категорию только если есть кнопки после фильтрации
         if (filteredButtons.length > 0 || filterText === '') {
             const categoryElement = document.createElement('div');
             categoryElement.className = 'category';
             categoryElement.innerHTML = `
-                <h2>${category.name}</h2>
-                <div class="buttons-container">
-                    ${(filterText ? filteredButtons : category.buttons).map(button => `
-                        <a href="${button.url}" target="_blank" class="button">${button.name}</a>
-                    `).join('')}
+                <div class="category-header">
+                    <h2>${category.name}</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="category-content">
+                    <div class="buttons-container">
+                        ${(filterText ? filteredButtons : category.buttons).map(button => `
+                            <a href="${button.url}" target="_blank" class="button">${button.name}</a>
+                        `).join('')}
+                    </div>
                 </div>
             `;
             categoriesContainer.appendChild(categoryElement);
+
+            // Добавляем обработчик клика для сворачивания/разворачивания
+            const header = categoryElement.querySelector('.category-header');
+            header.addEventListener('click', () => {
+                categoryElement.classList.toggle('active');
+            });
+
+            // Автоматически раскрываем категорию при поиске
+            if (filterText) {
+                categoryElement.classList.add('active');
+            }
         }
     });
 }
