@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FRANCHISE3</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="app-container">
         <header class="app-header">
-            <h1>FRANCHI<span>SE3</span></h1>
+            <div class="welcome-message">
+                <h1>FRANCHISE3</h1>
+                <p class="subtitle">Коллекция профессиональных аудио плагинов</p>
+            </div>
             <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Поиск по названиям..." autocomplete="off">
-                <button id="searchButton">🔍</button>
+                <input type="text" id="searchInput" placeholder="Поиск плагинов..." autocomplete="off">
+                <button id="searchButton">→</button>
                 <div class="suggestions-container" id="suggestionsContainer"></div>
             </div>
         </header>
@@ -25,7 +28,8 @@
         </main>
         
         <footer class="app-footer">
-            <p>TG: @earthwormmm 2025 FRANCHISE3</p>
+            <a href="https://t.me/earthwormmm" target="_blank" class="telegram-btn" title="Мой Telegram"></a>
+            <span>2025 FRANCHISE3</span>
         </footer>
     </div>
 
