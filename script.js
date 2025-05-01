@@ -14,7 +14,8 @@ const appData = {
                 { name: "uJAM - Finisher Bundle", url: "https://psv4.userapi.com/s/v1/d/xpNfYwMp1UI9zEST0pXnLdSHhfTqAG5R7La86f4r-gSE4nYJDK2FeywE2xfA5gN2w17-W6uyD9rsThEV3P8JB0ioyOEbfRq04sw8q5RbcMzrWubgoBnOlQ/uJAM_Finisher_Bundle_v1_2_0_VST.torrent" },
                 { name: "McDSP - Plugins Bundle", url: "https://psv4.userapi.com/s/v1/d/n3KDwHzh2gIPnzGfBWibioG7ItuZiTtBuOWKJIQW3-6EwYXBv4ELhshLSrqDoiI3btyXY3STxibVVZZDF5kyG31Ibrca702eINUVJzGJ3P5Ph8MTYkvL_w/McDSP_Plugins_Bundle.torrent" },
                 { name: "IK Multimedia T-RackS 6 MAX", url: "https://psv4.userapi.com/s/v1/d/wT6SG2KvVAWCytZdTEU4AcKpKEDOcyg0EFg-4v4DaY12Z8hqS2iLgEZ3Dc7f5KNJZCF5smN8lQAdbyVX3Cz3afn9zn7B5dCRru9sjx19oN5Csg2s0p973w/IK_Multimedia_T_RackS_6_MAX_6_0_2.torrent" },
-                { name: "D16 Group – Bundle", url: "https://psv4.userapi.com/s/v1/d/IWETdEIBD1Ze851XfBBpQRZt6yIvFhrlwcKsp5lRW3cNOPHsxl6oPK6YUUWFCO8nj-73zww_I6sooIeBbdwv3IYgfs7KWe_UVSCpLt2OOfSPcOVTl5XLpw/D16_Group__Bundle_VST_VST3_AAX_x64_WIN__R2R__NO_INSTALL_SymLink_Installer__2022_11_15__rutracker-6284323_torrent.torrent" }
+                { name: "D16 Group – Bundle", url: "https://psv4.userapi.com/s/v1/d/IWETdEIBD1Ze851XfBBpQRZt6yIvFhrlwcKsp5lRW3cNOPHsxl6oPK6YUUWFCO8nj-73zww_I6sooIeBbdwv3IYgfs7KWe_UVSCpLt2OOfSPcOVTl5XLpw/D16_Group__Bundle_VST_VST3_AAX_x64_WIN__R2R__NO_INSTALL_SymLink_Installer__2022_11_15__rutracker-6284323_torrent.torrent" },
+                { name: "OverloudGem Studio - bundle", url: "https://psv4.userapi.com/s/v1/d/LdS5TXJEqofvEMPSTYhozKUy-d3t_V_fUlO5G7Gsebvj8k-axAO9VRLk92BYl7cRaj6IXGQAhrgFRCfjxm-ruls_cOnjlkIcbENDsyca2nggtOx83DtPxw/Overloud_Gem_Studio_Plug_ins_22_09_2023.torrent" }
             ]
         },
         {
@@ -37,6 +38,11 @@ const appData = {
                 { name: "Slate Digital - Fresh Air", url: "https://psv4.userapi.com/s/v1/d/e8YbBh6lvuiT6fQPaf6x1s0__YCxRt3_qAKtTDMev2JENOJuLudVgJ1KI_UBR45j1OsSjHZn0ire7tPjJzPWAm3iefPzI0do_dIOInXfAiAQ7svTVM75uA/Skachat_torrent_fayl_luchshie_VST-plaginy.torrent" },
                 { name: "Slate Digital - Virtual Mix Rack", url: "https://psv4.userapi.com/s/v1/d/p5rcZggOx08Et8pz_QrmN-QzItVIVEPBTRC3FLs29Wm7rP_PQiBJvw6CZ-1qIuJHekovgDK-6z3xdx1SEmCsfTQipJfR8Rb-XGNh50nSc_nRWfv6T9DC9w/Skachat_torrent.torrent" },
                 { name: "cramit", url: "https://sixthsample.com/wp-content/uploads/2025/01/Cramit-1.3.1.zip" },
+                { name: "Acon Digital - DeVerberate", url: "https://psv4.userapi.com/s/v1/d/wkqOXPG4G1V-SVjnO5_k4TVs1w9sJPWuRUZJ-fGHR2BSxPKojSyTYQ5Ny6wjnL9CvOk7vC18rvBYChoZyVrV4IzoQ2pOGPrG7L540YH2N1B1dcJxvSRR6w/Acon_Digital_DeVerberate_3_v3_0_3.torrent"},
+                { name: "Cradle - Orion", url: "https://psv4.userapi.com/s/v1/d/udTYxwStMUr13f4kHQTQjVFFm2Fse09vmgj3Hd08wymKkYWoTacb3i4wymWPwKedSfqilc4xRQbKy-yoLtNfj5ky-iVV5LahlLA-6SAhQ5_JHR1y_f67fg/Cradle_Orion.torrent"},
+                { name: "Cradle - The God Particle", url: "https://psv4.userapi.com/s/v1/d/ydjWsN63qTubwD1a89VfK6dsrpxsy0ebub2Yqkc33W7zFclar0pbqB_hErQM9IDeW_zi3nK2_cJeuMaKpJ4k18kUeFVUMSNli9-rYHr_GjiM6GV9FPng_Q/Cradle_The_God_Particle_1_2_4.torrent"},
+                { name: "Wavesfactory - Spectre", url: "https://psv4.userapi.com/s/v1/d/LWw5BsPRSe8BGCBmH9RGEXVUEjyZfXUzGJJzqzVFaEixN3odOeRZRqI_s04q1zuEGNcco_l1ta92e6INXRPU6_rxFcp4wHDMsNqOM0nubF16peyk7tbPWQ/Wavesfactory_Spectre_1_5_6.torrent"}
+
             ]
         },
         {
@@ -48,7 +54,8 @@ const appData = {
                 { name: "iZotope - Tonal Balance Control 2", url: "https://psv4.userapi.com/s/v1/d/sImqVgqdpI_erKyBzbUwThbO7lQKIfEqSqxYXuvMgqRrSiPQH4UKvszdoA2nVog4SZ1CUqI5LgSrAtTTbKHj33i83kJF9IGbPDcOKHoVYppAeZ2yWlkzZg/iZotope_-_Tonal_Balance_Control_2_v2_8_0_VST_VST3_AAX_x64_02_2024__R2R__rutracker-6488584_torrent.torrent" },
                 { name: "The Softube - Tube-Tech Equalizers Mk II", url: "https://psv4.userapi.com/s/v1/d/R5_OviDlPSD3eBYNJcZcCpO0d0po2JXscmfPGjMICbDNezi9AvSAVLC8s4yc-1kBpfOcUrGpe4tkEABRI84RPjSSeoZ0KFyDkN1E1NFVDamtzHCV4HDk9w/Skachat_torrent.torrent" },
                 { name: "Sonnox Oxford - Inflator", url: "https://guitarist1.ru/wp-content/uploads/2024/12/sonnox-oxford-inflator-native-vst-v151-air.torrent" },
-                { name: "Newfangled Saturate", url: "https://www.mediafire.com/file/nusv8a50jc1g0np/Newfangled-Saturate-1.10.0.rar/file" }
+                { name: "Newfangled Saturate", url: "https://www.mediafire.com/file/nusv8a50jc1g0np/Newfangled-Saturate-1.10.0.rar/file" },
+                { name: "Leapwing Audio - StageOne", url: "https://psv4.userapi.com/s/v1/d/vZ4TwNwNrq9LJ5nsl6yPQuHPqquSp2jha4PBgq0B3da5n5yBupNAJGA354ojRAX9Jt1gI76qFKDIwCUYNBp89Kvz4K4vVD7j_cpjZ0KpnjQOYk2J4uCUPA/Skachat_torrent.torrent"}
             ]
         },
         {
@@ -57,12 +64,25 @@ const appData = {
             buttons: [
                 { name: "Voxengo - SPAN Plus", url: "https://psv4.userapi.com/s/v1/d/57G4TJKgZyqFMlhjCS2NioxmsI2m17_KCQQLnXy_pH0hpr6Mhw_o06yXdfxCEkkLOkiLIFz_xDVcOs-klgUozxEF8BfQCMUCr8lOzVEO8OHa-_OkYipPeA/Voxengo_-_SPAN_Plus_1_21_VST_VST3_AAX_WIN_x86_x64_12_12_2022__rutracker-6295438_torrent.torrent" },
                 { name: "A.O.M. Factory - Invisible Limite", url: "https://psv4.userapi.com/s/v1/d/AJh_LcxsWl3GIS3dHErpc8EeLKcyBWw9W-mada50hLXO_vOMoZULIycqOsoL4I9wjwcqV8CJRWQ8_wE7DvwLoGnwfsmZvocObZcWn0bGLaXx4eBgLcSDng/rutracker_org_t4707509_torrent.torrent" },
-                { name: "PeakEater", url: "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Windows-x86_64.zip" }
+                { name: "PeakEater", url: "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Windows-x86_64.zip" },
+                { name: "Plugin Alliance ADPTR Metric", url: "https://psv4.userapi.com/s/v1/d/26V0o1EJVfRw16-nmRHQlnwdesMpSel9_LN7sSAhIH3A6IE46eWkAVTh_pfIVp-Ss4tn7gikqex0-40hopxbh9xPNt10_iRyCW3YGPJ6MgYzMyBqB2quXw/Plugin_Alliance_ADPTR_Metric_AB_v1_4.torrent"},
+                { name: "Audified MixChecker Ultra", url: "https://psv4.userapi.com/s/v1/d/tmxsayH1_-WczIpU_9NDjUeEmd5di_qtta6ykyjMmIlq0eQZPxBq6_GjJxq5jQxYgUjeRw-Cd9_gIA11SwsZfoPy-urJy7dqZ77ss1OVYPLRSUw-s3SYlw/Audified_MixChecker_Ultra_v1_0_0.torrent"},
+                { name: "Celemony - Melodyne Studio", url: "https://psv4.userapi.com/s/v1/d/R7xyL1Df-MJWI9O7-Q9znIbP3iK8h7NbkXtXpxyxLtpxyBXzjyxog8hKIjvy_5esf7S6h8l-KbalVEG_-ZzgVKHxWUPSN7opPNVnFS0J_iROuyslCprnEw/Celemony_-_Melodyne_Studio_5_v5_3_1_018_EXE_VST3_AAX_x64_9_3_2023__rutracker-6333681_torrent.torrent"},
             ]
         },
         {
             id: 5,
             name: "ПЛАГИНЫ ЭФФЕКТЫ",
+            buttons: [
+                { name: "BABY Audio - Crystalline", url: "https://psv4.userapi.com/s/v1/d/K3nrjlZ-qYuA35F1ZDy-RYwtAefZvoHEkgBNR8S6c7Bnbfw0AecQEhe1POsKaSkg1PZq4dPeaMsmWt_nrWrxiDwrnGICQw2iBmeUex8VsRUvKxoQ3-ByuA/BABY_Audio_Crystalline_v1_5.torrent" },
+                { name: "Nuro Audio - Xvox Pro", url: "https://psv4.userapi.com/s/v1/d/0Ex0wmIUtt24tGXKhm_ZomT0D352RCb6c6e4Jj5yRKPR9rYcu8kckxrJEGx44tPaVRVEa2uj3-I1A-3Dxq8bddb5IXsYcXvQzCOXQk8nKLm9WjlddUknBw/Nuro_Audio_Xvox_Pro_v1_0_5.torrent"},
+                { name: "VerbSuite Classics (основа)", url: "https://psv4.userapi.com/s/v1/d/s_mKuUc7hsS-yzbrX0hvCCRT-BnqM2u2IlbiG8bgswKqXlM7lggPRESEwgo54JzazedRwx3ledDK_i8BeBBeaXGq1V81KS03wCMaWWl9flHji0XYtgKTXQ/Slate_Digital_VerbSuite_Classics_1_0_13_1.torrent" },
+                { name: "VerbSuite Classics (установить поверх основы)", url: "https://psv4.userapi.com/s/v1/d/YmSWJO1PbwRh8rMRAL-P75lusMhudLNVSX2_aVub6_vs9ZaL6xtMRnl9aSLm6P6GoSelj82W2EVufmTblEcs2S5Ubjhd2X0GfcZ7sfwXuHKYFuXTEvfMBA/Slate_Digital_VerbSuite_Classics_v1_1_5_0.torrent" }
+            ]
+        },
+        {
+            id: 5,
+            name: "СИНТЕРЗАТОРЫ/СЭМПЛЕРЫ",
             buttons: [
                 { name: "YouTube", url: "https://youtube.com" },
                 { name: "Netflix", url: "https://netflix.com"},
