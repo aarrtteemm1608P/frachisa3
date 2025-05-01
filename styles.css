@@ -233,3 +233,202 @@ body {
         width: 90%;
     }
 }
+/* Новые стили для титульного листа */
+.welcome-message {
+    text-align: center;
+    margin: 40px 0 30px;
+    position: relative;
+}
+
+.welcome-message h1 {
+    font-weight: 600;
+    font-size: 3.5rem;
+    letter-spacing: -1.5px;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.welcome-message h1::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 2px;
+    background: var(--black);
+}
+
+.welcome-message .subtitle {
+    color: var(--gray-dark);
+    font-weight: 400;
+    margin: 25px auto;
+    font-size: 1.1rem;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Анимация появления */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.app-header {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Медиазапросы для мобильных */
+@media (max-width: 768px) {
+    .welcome-message h1 {
+        font-size: 2.5rem;
+    }
+    
+    .welcome-message .subtitle {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+}
+/* Стили для сворачиваемых категорий */
+.category {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 0;
+    border: 1px solid var(--black);
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.category-header {
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.category-header:hover {
+    background: var(--gray-light);
+}
+
+.category-header h2 {
+    font-weight: 500;
+    margin: 0;
+    font-size: 1.1rem;
+    user-select: none;
+}
+
+.category-header .toggle-icon {
+    transition: transform 0.3s;
+    font-size: 1.2rem;
+}
+
+.category-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    border-top: 1px solid transparent;
+}
+
+.category.active .category-content {
+    max-height: 2000px; /* Достаточно большое значение для анимации */
+    border-top: 1px solid var(--black);
+}
+
+.category.active .toggle-icon {
+    transform: rotate(180deg);
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    padding: 15px;
+}
+
+/* Стиль для Telegram ссылки */
+.telegram-link {
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.telegram-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+/* Добавляем новый шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Inter:wght@300;400;500;600&display=swap');
+
+/* Обновляем стили категорий */
+.category-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0;
+    user-select: none;
+    color: var(--black);
+}
+
+/* Делаем анимацию более плавной */
+.category-content {
+    transition: max-height 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Обновляем стрелочку */
+.toggle-icon {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+/* Стили для кнопки Telegram */
+.telegram-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: var(--border-radius);
+    padding: 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 0 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.telegram-btn::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000000'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.33 1.48-1.73 5.08-2.44 6.72-.36.85-.72 1.13-1.17 1.13-.31 0-.48-.1-.96-.35l-2.66-1.28-1.03.32c-.23.07-.44.11-.63.11-.5 0-.82-.24-.82-.82 0-.24.08-.47.23-.68.46-.55 1.11-1.38 1.62-2.19.72-1.15 1.02-1.86 1.02-2.58 0-.5-.27-.75-.8-.75-.23 0-.47.08-.72.25L6.6 9.76c-.27.18-.52.38-.52.8 0 .47.38.82.85.82.24 0 .47-.08.72-.25l1.92-1.22c.23-.15.47-.23.72-.23.31 0 .56.1.72.31.16.21.24.47.24.77 0 .47-.16.98-.47 1.73-.31.75-.62 1.5-.93 2.25-.23.55-.47 1.1-.7 1.65-.1.24-.2.47-.31.7-.1.24-.2.39-.31.55-.1.16-.2.24-.31.24-.1 0-.2-.08-.31-.24l-.93-1.15-1.96-2.36c-.16-.21-.31-.39-.47-.55-.16-.16-.31-.24-.47-.24-.1 0-.2.08-.31.24-.1.16-.2.31-.2.47 0 .16.08.31.24.47l2.36 2.83 3.61 3.61c.47.47.94.7 1.57.7.94 0 1.65-.55 2.12-1.65.47-1.1 1.41-3.77 1.65-4.72.24-.94.47-1.41.7-1.41.16 0 .31.08.47.24.16.16.24.31.24.47 0 .16-.08.31-.24.47z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+
+.telegram-btn:hover {
+    background-color: var(--black);
+}
+
+.telegram-btn:hover::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.33 1.48-1.73 5.08-2.44 6.72-.36.85-.72 1.13-1.17 1.13-.31 0-.48-.1-.96-.35l-2.66-1.28-1.03.32c-.23.07-.44.11-.63.11-.5 0-.82-.24-.82-.82 0-.24.08-.47.23-.68.46-.55 1.11-1.38 1.62-2.19.72-1.15 1.02-1.86 1.02-2.58 0-.5-.27-.75-.8-.75-.23 0-.47.08-.72.25L6.6 9.76c-.27.18-.52.38-.52.8 0 .47.38.82.85.82.24 0 .47-.08.72-.25l1.92-1.22c.23-.15.47-.23.72-.23.31 0 .56.1.72.31.16.21.24.47.24.77 0 .47-.16.98-.47 1.73-.31.75-.62 1.5-.93 2.25-.23.55-.47 1.1-.7 1.65-.1.24-.2.47-.31.7-.1.24-.2.39-.31.55-.1.16-.2.24-.31.24-.1 0-.2-.08-.31-.24l-.93-1.15-1.96-2.36c-.16-.21-.31-.39-.47-.55-.16-.16-.31-.24-.47-.24-.1 0-.2.08-.31.24-.1.16-.2.31-.2.47 0 .16.08.31.24.47l2.36 2.83 3.61 3.61c.47.47.94.7 1.57.7.94 0 1.65-.55 2.12-1.65.47-1.1 1.41-3.77 1.65-4.72.24-.94.47-1.41.7-1.41.16 0 .31.08.47.24.16.16.24.31.24.47 0 .16-.08.31-.24.47z'/%3E%3C/svg%3E");
+    transform: scale(1.1);
+}
+
+/* Для футера */
+.app-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
