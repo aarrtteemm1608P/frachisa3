@@ -77,19 +77,25 @@ const appData = {
                 { name: "BABY Audio - Crystalline", url: "https://psv4.userapi.com/s/v1/d/K3nrjlZ-qYuA35F1ZDy-RYwtAefZvoHEkgBNR8S6c7Bnbfw0AecQEhe1POsKaSkg1PZq4dPeaMsmWt_nrWrxiDwrnGICQw2iBmeUex8VsRUvKxoQ3-ByuA/BABY_Audio_Crystalline_v1_5.torrent" },
                 { name: "Nuro Audio - Xvox Pro", url: "https://psv4.userapi.com/s/v1/d/0Ex0wmIUtt24tGXKhm_ZomT0D352RCb6c6e4Jj5yRKPR9rYcu8kckxrJEGx44tPaVRVEa2uj3-I1A-3Dxq8bddb5IXsYcXvQzCOXQk8nKLm9WjlddUknBw/Nuro_Audio_Xvox_Pro_v1_0_5.torrent"},
                 { name: "VerbSuite Classics (основа)", url: "https://psv4.userapi.com/s/v1/d/s_mKuUc7hsS-yzbrX0hvCCRT-BnqM2u2IlbiG8bgswKqXlM7lggPRESEwgo54JzazedRwx3ledDK_i8BeBBeaXGq1V81KS03wCMaWWl9flHji0XYtgKTXQ/Slate_Digital_VerbSuite_Classics_1_0_13_1.torrent" },
-                { name: "VerbSuite Classics (установить поверх основы)", url: "https://psv4.userapi.com/s/v1/d/YmSWJO1PbwRh8rMRAL-P75lusMhudLNVSX2_aVub6_vs9ZaL6xtMRnl9aSLm6P6GoSelj82W2EVufmTblEcs2S5Ubjhd2X0GfcZ7sfwXuHKYFuXTEvfMBA/Slate_Digital_VerbSuite_Classics_v1_1_5_0.torrent" }
+                { name: "VerbSuite Classics (установить поверх основы)", url: "https://psv4.userapi.com/s/v1/d/YmSWJO1PbwRh8rMRAL-P75lusMhudLNVSX2_aVub6_vs9ZaL6xtMRnl9aSLm6P6GoSelj82W2EVufmTblEcs2S5Ubjhd2X0GfcZ7sfwXuHKYFuXTEvfMBA/Slate_Digital_VerbSuite_Classics_v1_1_5_0.torrent" },
+                { name: "iZotope - Nectar 4 Advanced v4.0.0", url: "https://psv4.userapi.com/s/v1/d/FW35uCP0Pb7EL3g1-O66PpxgDpXArttIHHe8Hv47xGnlWghkkwzT6Km8_TshADl0QJQZaaSWhFoCzY4WE-dAHjudFjJ7i18BDIQTnU6u2c0qW6a70F7yHA/Zotope_-_Nectar_4_Advanced_v4_0_0_VST3_AAX_x64_R2R__07_09_2023__rutracker-6406001_torrent.torrent" }
             ]
         },
         {
-            id: 5,
+            id: 6,
             name: "СИНТЕРЗАТОРЫ/СЭМПЛЕРЫ",
             buttons: [
-                { name: "YouTube", url: "https://youtube.com" },
-                { name: "Netflix", url: "https://netflix.com"},
-                { name: "Spotify", url: "https://spotify.com" },
-                { name: "Twitch", url: "https://twitch.tv" }
+                { name: "Xfer - Serum", url: "https://guitarist1.ru/wp-content/uploads/2024/05/xfer-records-serum-v1-36b8.torrent" },
+                { name: "Xfer - Serum 2", url: "https://psv4.userapi.com/s/v1/d/HAqHUgHngLndFUlc7JboLJOB9C8lh5Ao1KLvg6GbXYtBesgdD7YdBVkjKb0KhL-KWiyJeUO1LVuZmQLsfD6R50CR-SYPFmp3uiJXacKjE-5_cYQ4dhXPGQ/Xfer_-_Serum_2_v2_0_16_Audiowarez_VST3_AAX_WIN__22_03_2025__rutracker-6665821_torrent.torrent"},
+                { name: "Spectrasonics - Omnisphere", url: "https://psv4.userapi.com/s/v1/d/QcqxXjO2_sJJpGbxJMTjgWpJ-8QTpGfENQDDLmaueCLnkKPjuZXK76mkyPqB6ZmGks5jUJ1GDbsuG75YrsZjfTUHxIuiOcpNgcwpbixZG4rYvCxjLR06hg/Spectrasonics_-_Omnisphere_v_2_8_3d_torrent_torrent.torrent" },
+                { name: "Diva", url: "https://flstudio12-20.com/wp-content/uploads/2024/03/heckmann-audio-u-he-diva-v1-4-7.torrent" },
+                { name: "Algonaut - Atlas 2", url: "https://psv4.userapi.com/s/v1/d/L-cOKekY_Ok7tbbS2O6-LyMWkRDePjMZe5E6KtcsvOyqhYOvWu7O_YxxopNuFRH2eR3xDQzihQUE2q163IjCcMKPN133lh3d3DPhl6R5khiC-ibqcb_-9w/Algonaut_-_Atlas_2_v2_3_0_STANDALONE_VSTi_VSTi3_x64_27_08_2022__rutracker-6251665_torrent.torrent" },
+                { name: "Arturia - Analog Lab V", url: "https://psv4.userapi.com/s/v1/d/mtHKT5SB2nUgTvhG8TqnYERzkX9fUS1iDXR_1_OWkLVrWF71UdLsua2nZ8KUWVpuQxufiCzt_9Dw4aHC9FlylV05mVOIMW1r1dIfBFvyAtmHOGX8r0Dc4g/Arturia_-_Analog_Lab_V_v5_7_0_CE-V_R_STANDALONE_VST_VST3_AAX_x64_WIN__9_03_2023__rutracker-6333983_torrent.torrent"},
+                { name: "u-he - Hive", url: "https://psv4.userapi.com/s/v1/d/yNkXVnWo1nmAAL5IX1qPQU_XjY3bZlDJWpsTyGnCvXEaPy2x_TkpgPRVFtF6hZSoYwHRlabO90UJZH8v8w9VTmptNFkXtaYMqIgXf3wQtV7ikg8ie0jDrQ/u-he_-_Hive_v2_1_1_VSTi_VST3_AAX_AU_x86_x64_WIN-MAC-LiNUX__11_1_2023__rutracker-6308056_torrent.torrentm" },
+                { name: "u-he - Bazille", url: "https://psv4.userapi.com/s/v1/d/tY15xwAqko_W1QL0QQ7o7zzkb8q9K--2PSUZI0f0rG6fqtXAu635Eb_XMVoC90bODOD_tSoQJhO8ksf-HSSFxWmdfsPGxHNvRjqzTngK_GkS7w9Yg3JPDA/Skachat_torrent.torrent" },
+                { name: "XLN Audio AddictiveDrums 2", url: "https://psv4.userapi.com/s/v1/d/OreRa8ISZWlfUuAQTkS5CWtitn_Qrl2LLXD1ymmlDQSdcFn_3TTmP4cxjEbzjU8nMPrRw3rzXEwrUrqDQtJPheDLTuD98Qe30Y00mEXMvO17wmaDSzUVPQ/XLN_Audio_Addictive_Drums_2_Complete_v2_5_2_1.torrent" }
             ]
-        }
+        },
     ]
 };
 
